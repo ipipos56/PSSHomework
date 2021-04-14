@@ -10,10 +10,10 @@ public:
         car["color"] = color;
         car["number"] = number;
         car["coordinates"] = coordinates;
-        if(type == Business.type)
+        if(type == Comfort.type)
             car["freeBottleOfWater"] = freeBottleOfWater;
         else{
-            cout<<"Only Business type of cars have BottleOfWater"<<endl;
+            cout<<"Only Comfort type of cars have BottleOfWater"<<endl;
             car["freeBottleOfWater"] = -1;
         }
         car["deleted"] = false;
@@ -53,6 +53,7 @@ int main() {
     Driver * driver2;
     Driver * driver3;
     Driver * driver4;
+    Driver * driver5;
     cout<<endl;
     driver1 = DriverGateway::loginDriver("log","password",usr);
     driver1 = DriverGateway::loginDriver("login","pass",usr);
@@ -61,6 +62,7 @@ int main() {
     driver2 = DriverGateway::loginDriver("login6","password",usr);
     driver3 = DriverGateway::loginDriver("login5","password",usr);
     driver4 = DriverGateway::loginDriver("login4","password",usr);
+    driver5 = DriverGateway::loginDriver("login","password1",usr);
     cout<<endl;
 
     DriverGateway::showOrderHistory(driver4);
@@ -131,6 +133,7 @@ int main() {
     PassengerGateway::showPinnedAddresses(passenger1);
 
     DriverGateway::parkRightInFrontOfTheEntrance(driver4);
+    DriverGateway::parkRightInFrontOfTheEntrance(driver5);
 
 
     //Need for making Drivers "notWorking" in DRIVERS dataBase

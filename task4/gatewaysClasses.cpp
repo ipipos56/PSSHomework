@@ -185,10 +185,17 @@ public:
         else
             cout<<"You have not logged to an account"<<endl;
     }
-    static void parkRightInFrontOfTheEntrance(Driver *tempDriver)
+    static void parkRightInFrontOfTheEntrance(Driver * tempDriver)
     {
-        if(tempDriver != nullptr && tempDriver->amILogged())
-            cout<<"Parked right in front of the entrance"<<endl;
+        if(tempDriver != nullptr && tempDriver->amILogged()) {
+            int tempid = tempDriver->getMyID();
+            json tempDriver = Driver::getDriver(tempid);
+            json tempCar = Car::getThisCar(tempDriver["carID"]);
+            if(tempCar["type"] == Business.type)
+                cout << "Parked right in front of the entrance" << endl;
+            else
+                cout<<"Only business cars can park right in front of the entrance"<<endl;
+        }
         else
             cout<<"You have not logged to an account"<<endl;
     }
