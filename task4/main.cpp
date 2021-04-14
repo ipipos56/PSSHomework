@@ -130,6 +130,7 @@ int main() {
     PassengerGateway::updatePinnedAddress(passenger1,1,"-1",-1,true);
     PassengerGateway::showPinnedAddresses(passenger1);
 
+    DriverGateway::parkRightInFrontOfTheEntrance(driver4);
 
 
     //Need for making Drivers "notWorking" in DRIVERS dataBase
