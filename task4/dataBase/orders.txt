@@ -1,2 +1,7 @@
-{"cost":3000,"from":"Kazan","id":0,"idDriver":340,"idPassenger":0,"status":"Complete","to":"Almetyevsk"}
-{"cost":4500,"from":"Almetyevsk","id":1,"idDriver":200,"idPassenger":5,"status":"Complete yet","to":"Kazan"}
+{"carTimeForKM":10,"cost":100,"deleted":false,"driverCoordinates":5,"from":0,"id":0,"idDriver":2,"idPassenger":1,"passengerCoordinates":5,"status":"Complete","timeOfOrder":50,"timeSpend":100,"to":5}
+{"carTimeForKM":10,"cost":50,"deleted":false,"driverCoordinates":5,"from":0,"id":1,"idDriver":2,"idPassenger":1,"passengerCoordinates":5,"status":"Complete","timeOfOrder":50,"timeSpend":100,"to":5}
+{"carTimeForKM":10,"cost":50,"deleted":false,"driverCoordinates":5,"from":0,"id":2,"idDriver":2,"idPassenger":1,"passengerCoordinates":5,"status":"Complete","timeOfOrder":50,"timeSpend":50,"to":5}
+{"carTimeForKM":10,"cost":100,"deleted":false,"driverCoordinates":5,"from":0,"id":3,"idDriver":2,"idPassenger":1,"passengerCoordinates":5,"status":"Complete","timeOfOrder":50,"timeSpend":50,"to":5}
+{"carTimeForKM":10,"cost":100,"deleted":false,"driverCoordinates":5,"from":0,"id":4,"idDriver":2,"idPassenger":1,"passengerCoordinates":5,"status":"Complete","timeOfOrder":50,"timeSpend":50,"to":5}
+{"carTimeForKM":10,"cost":100,"deleted":false,"driverCoordinates":5,"from":0,"id":5,"idDriver":2,"idPassenger":1,"passengerCoordinates":5,"status":"Complete","timeOfOrder":50,"timeSpend":50,"to":5}
+{"carTimeForKM":10,"cost":100,"deleted":false,"driverCoordinates":5,"from":0,"id":6,"idDriver":2,"idPassenger":1,"passengerCoordinates":5,"status":"Complete","timeOfOrder":50,"timeSpend":50,"to":5}

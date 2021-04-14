@@ -1,0 +1,7 @@
+{"color":"Blue","coordinates":20,"deleted":false,"freeBottleOfWater":5,"id":0,"model":"Tesla","number":"D100DF","type":4}
+{"color":"Red","coordinates":0,"deleted":false,"freeBottleOfWater":-1,"id":1,"model":"Ford","number":"A189AA","type":2}
+{"color":"Blue","coordinates":5,"deleted":false,"freeBottleOfWater":-1,"id":2,"model":"Lada Calina","number":"B180AA","success":true,"type":1}
+{"color":"Blue","coordinates":7,"deleted":false,"freeBottleOfWater":-1,"id":3,"model":"Lada Largus","number":"B180AA","type":1}
+{"color":"White","coordinates":10,"deleted":false,"freeBottleOfWater":-1,"id":4,"model":"Lada Granta","number":"B394AA","type":1}
+{"color":"Yellow","coordinates":3,"deleted":false,"freeBottleOfWater":-1,"id":5,"model":"Shevrolet Camaro","number":"F777FF","type":3}
+{"color":"Yellow","coordinates":4,"deleted":false,"freeBottleOfWater":-1,"id":6,"model":"Shevrolet Camaro","number":"F777FF","type":3}

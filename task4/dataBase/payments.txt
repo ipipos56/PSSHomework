@@ -1,0 +1,3 @@
+{"default":true,"deleted":false,"id":0,"idPassenger":0,"moneyCount":10000,"title":"may"}
+{"default":false,"deleted":false,"id":1,"idPassenger":1,"moneyCount":3530,"title":"myMoney"}
+{"default":false,"deleted":false,"id":2,"idPassenger":1,"moneyCount":2850,"title":"my second"}

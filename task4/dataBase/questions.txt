@@ -1,0 +1,2 @@
+{"deleted":false,"from":0,"id":0,"idDriver":2,"idPassenger":1,"properties":1,"status":"no","to":5}
+{"deleted":false,"from":0,"id":1,"idDriver":2,"idPassenger":1,"properties":1,"status":"yes","to":5}
