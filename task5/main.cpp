@@ -92,7 +92,7 @@ int main() {
     PassengerGateway::showRidesThatICanTake(passenger1,0,5,Economy);
     cout<<endl;
     int numberOfQuestion = PassengerGateway::askForADriver(passenger1,0,5,Economy,1);
-    DriverGateway::answerToAQuestion(driver4, false);
+    DriverGateway::lookForAvailableRides(driver4, false);
     PassengerGateway::orderTheRide(passenger1,0,5,Economy,1, numberOfQuestion);
     numberOfQuestion = PassengerGateway::askForADriver(passenger1,0,5,Economy,1);
     DriverGateway::answerToAQuestion(driver4, true);

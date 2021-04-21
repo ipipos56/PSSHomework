@@ -685,19 +685,20 @@ public:
 
     int askForADriver(int from, int to, const CarTypeProperties properties, int numberOfRide)
     {
-        json outputInfo = askForARide(from,to,properties,numberOfRide);
-        json question;
-        question["id"] = workWithDB::countOfLinesInFile(DRIVERSQUESTIONS);
-        question["idPassenger"] = passengerID;
-        question["idDriver"] = outputInfo["driverID"];
-        question["from"] = from;
-        question["to"] = to;
-        question["properties"] = properties.type;
-        question["status"] = "-1";
-        question["deleted"] = false;
-        workWithDB::writeToFile(DRIVERSQUESTIONS, question.dump());
-        cout<<"Wait while driver accept or decline your order"<<endl;
-        return (int)question["id"];
+        json outputInfo = takeARide(from, to, properties, numberOfRide);
+        if (outputInfo["success"]) {
+            //setRideParameterInDB(true);
+            //giveMoney(whichPayment, outputInfo["cost"]);
+            string tempStatus = driverToPassengerMessage;
+            if (outputInfo["willBeAfter"] == 0)
+                tempStatus = onARideMessage;
+            createOrder(outputInfo["driverID"], from, to, outputInfo["cost"],
+                        tempStatus, outputInfo["driverCoordinates"], outputInfo["time"], properties.timeForKM);
+            cout << "You successfully create a request for a driver" <<endl;
+            cout<<" Wait for an answer, please"<<endl;
+        } else
+            cout << "You can not take this ride, wait please:)" << endl;
+        cout << "or take another if it is exists" << endl;
     }
 };
 

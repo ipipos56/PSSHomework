@@ -19,6 +19,8 @@ using namespace std;
 const string driverToPassengerMessage = "Driver go to a passenger";
 const string onARideMessage = "In a ride with passenger";
 const string completeMessage = "Complete";
+const string requestedMessage = "Requested";
+const string declinedMessage = "Declined";
 
 const string PASSENGERS = "../dataBase/passengers.txt";
 const string DRIVERS = "../dataBase/drivers.txt";
