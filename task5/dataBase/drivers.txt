@@ -1,0 +1,6 @@
+{"carID":0,"countOfRides":0,"deleted":false,"id":0,"isOnRide":false,"isWorking":false,"login":"login","name":"Driver","password":"password1","rating":0,"surname":"Driverovich"}
+{"carID":1,"countOfRides":0,"deleted":false,"id":1,"isOnRide":false,"isWorking":false,"login":"login2","name":"Petr","password":"password","rating":0,"surname":"Petrovich"}
+{"carID":2,"countOfRides":0,"deleted":false,"id":2,"isOnRide":false,"isWorking":false,"login":"login4","name":"Oleg","password":"password","rating":0,"success":true,"surname":"Petrovich"}
+{"carID":3,"countOfRides":0,"deleted":false,"id":3,"isOnRide":false,"isWorking":false,"login":"login5","name":"Oleg","password":"password","rating":0,"surname":"Olegov"}
+{"carID":4,"countOfRides":0,"deleted":false,"id":4,"isOnRide":false,"isWorking":false,"login":"login6","name":"Key","password":"password","rating":0,"surname":"Thor"}
+{"carID":5,"countOfRides":0,"deleted":false,"id":5,"isOnRide":false,"isWorking":false,"login":"login7","name":"Ken","password":"password","rating":0,"surname":"Dre"}
